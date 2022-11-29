@@ -42,17 +42,17 @@ codes and families specified by community are followed [3].
 Details of HTTP based error/exception codes for the Device Status API are described in Section 4.2 of each API REST based method.
 Following table provides an overview of common error names, codes and messages applicable to Device Status API.
 
-| No  | Error Name            | Error Code | Error Message                                                 |
-|-----|-----------------------|------------|---------------------------------------------------------------|
-| 1   | Invalid port(s)       | 400        | "Ports specification not valid                                |
-| 2   | Invalid ueId          | 400        | "Validation failed for parameter: ueId"                       |
-| 3   | Invalid port          | 400        | "Validation failed for parameter: port"                       |
-| 4   | Invalid eventType     | 400        | "Validation failed for parameter: eventType"                  |
-| 7   | Unauthorized          | 401        | "Un-authorized to invoke operation"                           |
-| 8   | Forbidden             | 403        | "Forbidden to invoke operation"                               |
-| 9   | Not found             | 404        | "The specified resource is not found"                         |
-| 10  | Internal server error | 500        | "Internal server error"                                       |
-| 11  | Service unavailable   | 503        | “Internal error due to required telco service unavailability" |
+| No  | Error Name          | Error Code | Error Message                                                 |
+|-----|---------------------|------------|---------------------------------------------------------------|
+| 1   | Invalid port(s)     | 400        | "Ports specification not valid"                               |
+| 2   | Invalid ueId        | 400        | "Validation failed for parameter: ueId"                       |
+| 3   | Invalid port        | 400        | "Validation failed for parameter: port"                       |
+| 4   | Invalid eventType   | 400        | "Validation failed for parameter: eventType"                  |
+| 7   | Unauthorized        | 401        | "Un-authorized to invoke operation"                           |
+| 8   | Forbidden           | 403        | "Forbidden to invoke operation"                               |
+| 9   | Not found           | 404        | "The specified resource is not found"                         |
+| 10  | Server error        | 500        | "Internal server error"                                       |
+| 11  | Service unavailable | 503        | “Internal error due to required telco service unavailability" |
 
 ### 4.3 Policies
 
